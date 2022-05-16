@@ -1,0 +1,35 @@
+/*
+Theme Name: Divi rentage
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 4.9.10.1651063702
+Updated: 2022-04-27 13:48:22
+
+*/
+#logo {
+  max-height: 70%;
+}
+
+#main-content .container::before {
+  content: none;
+  position: none;
+  top: none;
+  height: none;
+  width: none;
+  background-color: none;
+}
+
+#mobile_menu_bar_toggle {
+  color: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

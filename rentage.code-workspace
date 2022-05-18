@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../bootstrap-exercise1-21A"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501
+  }
+}

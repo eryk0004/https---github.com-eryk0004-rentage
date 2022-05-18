@@ -33,3 +33,9 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
+.et_pb_toggle_0.et_pb_toggle h2.et_pb_toggle_title {
+  font-family: fenwick, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}

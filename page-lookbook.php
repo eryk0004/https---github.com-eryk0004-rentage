@@ -20,9 +20,11 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 ?>
     <!-- class="container" bruges som yderste kasse (/container) for vores grid -->
 
-    <main class="container-fluid">
+    <main class="container-fluid wfidth-100">
+
+    <h2 class="display-3 p-4 border border-dark border-4"> LOOKBOOK </h2>
       
-      <section id="top" class="mb-4 row pt-4">
+      <section id="top" class="mb-4 pt-4 row width-100">
 
       <img
           class="col-12 mb-3 col-md-4 mb-md-4 mb-md-0 col-sm-6  img-fluid"
@@ -107,6 +109,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
           alt="rentage_lookbook"
         />
       </section>
+
     </main>
 
     <!-- END container -->
@@ -131,8 +134,12 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
     -->
     <!-- link til egne script-filer til sidst -->
     <script src="js/scripts.js"></script>
-  </body>
+    <?php
   get_footer();
+  $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
+ ?>
+  </body>
+
 </html>
 </html>
 

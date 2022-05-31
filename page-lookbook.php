@@ -20,7 +20,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 ?>
     <!-- class="container" bruges som yderste kasse (/container) for vores grid -->
 
-    <main class="container-fluid wfidth-100">
+    <main class="container-fluid width-100">
 
     <h2 class="display-3 p-4 border border-dark border-4"> LOOKBOOK </h2>
       

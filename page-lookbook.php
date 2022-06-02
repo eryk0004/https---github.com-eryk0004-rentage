@@ -133,7 +133,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
     <!-- link til egne script-filer til sidst -->
-    <script src="js/scripts.js"></script>
+    <!-- <script src="js/scripts.js"></script> -->
     <?php
   get_footer();
   $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
